@@ -1,0 +1,20 @@
+[user]
+    name = maren61513
+    email = maren61513@users.noreply.github.com
+
+[core]
+    editor = vim
+    autocrlf = input
+
+[color]
+    ui = auto
+
+[alias]
+    unstage = reset HEAD --
+    co = checkout
+    visual = !gitk
+    ci = commit
+    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+
+[init]
+    defaultBranch = main
